@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+    margin: 0;
+    text-shadow: 0px 0px 1px black;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.hero {
+    background-image: url("images/glasgow.jpg");
+    background-size: cover;
+    width: 720px;
+    height: 343px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.text-wrap {
+    background: #413b5a;
+    padding: 10px 30px;
+    border-radius: 20px;
+
+}
+
+.activities {
+    background: linear-gradient(#8cabc6, #268BE2);
+    background-size: cover;
+    width: 720px;
+    height: 343px;
+    margin: 0px auto;
+    font-size: 14px;
+
+    
+}
+
+.activities-container {
+    width: 200px;
+    height: 245px;
+}
+
+#activity-header {
+    margin-top: 0px;
+    padding: 30px;
+}
+
+.image {
+    border-radius: 50px;
+}
+
+.activity-images {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.guide {
+    background-color: #E16666;
+    width: 720px;
+    height: 343px;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+#guide-header {
+    margin: 0;
+}
+
+#avatar {
+    height: 248px;
+    width: 180px;
+    margin: 0px 7px 0px 13px;
+    border-radius: 20px;
+}
+
+.card {
+    background: #268BE2;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 50px;
+    margin: auto;
+    border-bottom: 5px solid whitesmoke;
+}
